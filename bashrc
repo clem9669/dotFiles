@@ -5,7 +5,7 @@ alias grep='grep --color=auto'
 alias l='ls -AlhF --color=always'
 alias less='less -R'
 alias ls='ls --color=auto'
-alias p='curl https://ipinfo/io'
+alias p='curl https://ipinfo.io'
 alias ping='ping -c 3'
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 alias shred='shred -zvun 12'

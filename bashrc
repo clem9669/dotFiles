@@ -9,7 +9,7 @@ alias p='curl https://ipinfo.io'
 alias ping='ping -c 3'
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 alias shred='shred -zvun 12'
-alias s='python2.7 -m SimpleHTTPServer 8000'
+alias s='python3 -m http.server 8000'
 #alias wget = 'wget -c'
 mkcd ()
 {

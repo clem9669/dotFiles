@@ -116,3 +116,7 @@ mkcd ()
 {
   mkdir -p -- "$1" && cd -P -- "$1"
 }
+wordlists()
+{
+find -L /usr/share/wordlists /opt/SecLists/ -type f -iname "$1"
+}

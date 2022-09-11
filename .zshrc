@@ -118,5 +118,5 @@ mkcd ()
 }
 wordlists()
 {
-find -L /usr/share/wordlists /opt/SecLists/ -type f -iname "$1"
+find -L /usr/share/wordlists /opt/SecLists/ -type f -iname "*$1*"
 }

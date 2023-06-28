@@ -189,8 +189,19 @@ bar {
         }
 }
 
+# i3-gaps
+for_window [class="^.*"] border pixel 2
+gaps inner 2
+gaps outer 4
+
 client.focused  #0065b5 #0065b5 #ededed
 client.focused_inactive #333333 #333333 #888888
 client.unfocused #333333 #333333 #888888
 client.urgent #900000 #900000 #ffffff
 default_border normal
+
+# feh - Wallpaper Setter
+exec_always --no-startup-id sh ~/.config/feh/fehbg
+
+# screenshot
+bindsym $mod+P exec flameshot gui

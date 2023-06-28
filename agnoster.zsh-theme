@@ -267,7 +267,8 @@ build_prompt() {
 }
 
 # Add DATE & Time to right section in color:
+# https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html
 # PROMPT='%{%f%b%k%}%{$bg[yellow]%}%{$fg[black]%} %D{%a, %f %b %Y} %{$bg[red]%}%{$fg[white]%}%D{ %L:%M:%S %p} % %{$reset_color%}$(build_prompt) '
 
 PROMPT='%{%f%b%k%}$(build_prompt) '
-RPS1='${return_code} %D - %*'
+RPS1='${return_code} %D{ %f %b %Y} - %D{%K:%M:%S }'

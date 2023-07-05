@@ -100,6 +100,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 ## ADDED
+### Commands
+setxkmap fr
+
+### Alias
 alias ap='sudo apt update && sudo apt upgrade -y'
 alias cd..='cd ..'
 alias grep='grep --color=auto'
@@ -112,6 +116,8 @@ alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 alias shred='shred -zvun 12'
 alias s='python3 -m http.server 8000'
 #alias wget = 'wget -c'
+
+### Functions
 mkcd ()
 {
   mkdir -p -- "$1" && cd -P -- "$1"

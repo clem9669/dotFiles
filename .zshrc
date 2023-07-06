@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 ## ADDED
 ### Commands
-setxkmap fr
+setxkbmap fr
 
 ### Alias
 alias ap='sudo apt update && sudo apt upgrade -y'
